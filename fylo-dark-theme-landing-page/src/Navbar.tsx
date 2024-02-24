@@ -9,9 +9,15 @@ export default function Navbar() {
       </div>
       <div>
         <ul className="flex gap-6">
-          <li className="text-textColor text-sm">Features</li>
-          <li className="text-textColor text-sm">Team</li>
-          <li className="text-textColor text-sm">Sign In</li>
+          <li className="text-textColor text-sm">
+            <a href="#">Features</a>
+          </li>
+          <li className="text-textColor text-sm">
+            <a href="#">Team</a>
+          </li>
+          <li className="text-textColor text-sm">
+            <a href="#">Sign In</a>
+          </li>
         </ul>
       </div>
     </nav>

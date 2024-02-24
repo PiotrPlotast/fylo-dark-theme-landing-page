@@ -17,6 +17,12 @@ export default {
       main: ["Raleway", "sans-serif"],
       secondary: ["Open Sans", "sans-serif"],
     },
+    fontSize: {
+      sm: "0.75rem",
+      md: "0.875rem",
+      lg: "1.125rem",
+      xl: "1.5rem",
+    },
     extend: {},
   },
   plugins: [],

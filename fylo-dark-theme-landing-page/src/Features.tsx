@@ -5,7 +5,7 @@ import anyFile from "./assets/images/icon-any-file.svg";
 
 export default function Features() {
   return (
-    <section className="mx-7 mt-32">
+    <section className="mx-7 mt-32 mb-40">
       <ul className="flex flex-col gap-20">
         <li>
           <div className="flex flex-col items-center">

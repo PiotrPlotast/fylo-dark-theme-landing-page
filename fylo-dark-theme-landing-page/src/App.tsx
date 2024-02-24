@@ -1,10 +1,19 @@
 import "./App.css";
-
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Features from "./Features";
 function App() {
   return (
-    <>
-      <h1 className=" text-3xl">test</h1>
-    </>
+    <div className="bg-bgColor">
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+        <Features />
+      </main>
+      <footer></footer>
+    </div>
   );
 }
 

@@ -5,8 +5,8 @@ export default function FooterSocials() {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-facebook-filled"
-          width="24"
-          height="24"
+          width="15"
+          height="15"
           viewBox="0 0 24 24"
           strokeWidth="2"
           stroke="white"
@@ -25,8 +25,8 @@ export default function FooterSocials() {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-twitter"
-          width="24"
-          height="24"
+          width="15"
+          height="15"
           viewBox="0 0 24 24"
           strokeWidth="2"
           stroke="white"
@@ -42,8 +42,8 @@ export default function FooterSocials() {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="icon icon-tabler icon-tabler-brand-instagram"
-          width="24"
-          height="24"
+          width="15"
+          height="15"
           viewBox="0 0 24 24"
           strokeWidth="2"
           stroke="white"

@@ -2,7 +2,7 @@ import StayProductiveImg from "./StayProductiveImg";
 import arrow from "./assets/images/icon-arrow.svg";
 export default function HowItWorks() {
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center max-w-lg mx-auto">
       <StayProductiveImg />
       <div>
         <h2 className="text-textColor font-main font-bold text-lg text-center mx-6 mt-12">

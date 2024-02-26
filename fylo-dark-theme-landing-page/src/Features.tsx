@@ -6,7 +6,7 @@ import anyFile from "./assets/images/icon-any-file.svg";
 export default function Features() {
   return (
     <section className="mx-7 mt-32 mb-40">
-      <ul className="flex flex-col gap-20">
+      <ul className="grid gap-20 lg:grid-cols-2">
         <li>
           <div className="flex flex-col items-center">
             <img src={accessAnywhere} alt="" />

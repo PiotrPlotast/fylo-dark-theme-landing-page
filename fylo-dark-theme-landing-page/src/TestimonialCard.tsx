@@ -11,7 +11,7 @@ export default function TestimonialCard({
 }) {
   return (
     <div className="bg-cardBgColor px-5 pt-6 pb-5 rounded">
-      <p className="font-secondary text-textColor text-xs leading-[1.125rem] sm:text-sm">
+      <p className="font-secondary text-textColor text-xs leading-[1.125rem] sm:text-sm lg:max-w-[36ch] lg:text-md">
         {message}
       </p>
       <div className="mt-4 flex">

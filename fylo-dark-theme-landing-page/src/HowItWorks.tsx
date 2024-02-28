@@ -2,10 +2,10 @@ import StayProductiveImg from "./StayProductiveImg";
 import arrow from "./assets/images/icon-arrow.svg";
 export default function HowItWorks() {
   return (
-    <section className="flex flex-col items-center max-w-lg mx-auto">
+    <section className="flex flex-col items-center max-w-lg mx-auto lg:grid grid-cols-2 lg:space-x-16 lg:max-w-3xl xl:max-w-6xl">
       <StayProductiveImg />
       <div>
-        <h2 className="text-textColor font-main font-bold text-lg text-center mx-6 mt-12">
+        <h2 className="text-textColor font-main font-bold text-lg text-center mx-6 mt-12 lg:text-left lg:text-xxl">
           Stay productive, wherever you are
         </h2>
         <p className="text-textColor text-md font-secondary mx-6 my-4">

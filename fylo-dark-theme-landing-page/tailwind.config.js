@@ -29,8 +29,8 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/img/hero-pattern.svg')",
-        "how-it-works-pattern": "url('/img/footer-texture.png')",
+        "hero-pattern-mobile": "url('/assets/images/bg-curvy-mobile.svg')",
+        "hero-pattern-desktop": "url('/assets/images/bg-curvy-desktop.svg')",
         "bg-quotes": "url('/src/asssets/images/bg-quotes.png')",
       },
     },

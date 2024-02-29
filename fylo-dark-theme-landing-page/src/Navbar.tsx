@@ -9,13 +9,13 @@ export default function Navbar() {
       </div>
       <div>
         <ul className="flex gap-6">
-          <li className="text-textColor text-sm font-main lg:text-[1rem]">
+          <li className="text-textColor text-sm font-main lg:text-[1rem] hover:underline">
             <a href="#">Features</a>
           </li>
-          <li className="text-textColor text-sm font-main lg:text-[1rem]">
+          <li className="text-textColor text-sm font-main lg:text-[1rem] hover:underline">
             <a href="#">Team</a>
           </li>
-          <li className="text-textColor text-sm font-main lg:text-[1rem]">
+          <li className="text-textColor text-sm font-main lg:text-[1rem] hover:underline">
             <a href="#">Sign In</a>
           </li>
         </ul>

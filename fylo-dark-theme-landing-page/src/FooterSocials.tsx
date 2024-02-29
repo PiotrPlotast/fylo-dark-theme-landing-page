@@ -1,6 +1,6 @@
 export default function FooterSocials() {
   return (
-    <section className="flex justify-center gap-4 mt-14 pb-16">
+    <section className="flex justify-center gap-4 mt-14 pb-16 lg:pb-0 lg:mt-0 lg:mr-7">
       <a href="#" className="border border-textColor rounded-full p-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"

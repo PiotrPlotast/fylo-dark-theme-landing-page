@@ -22,13 +22,15 @@ function App() {
         <Testimonials />
         <CtaCard />
       </main>
-      <footer className=" bg-footerBgColor">
-        <div className="pt-[15.1875rem] w-24 ml-10">
+      <footer className="bg-footerBgColor pt-[15.1875rem] lg:pt-48 lg:mx-auto">
+        <div className="w-24 ml-10 xl:mx-32">
           <Logo />
         </div>
-        <ContactUs />
-        <FooterLinks />
-        <FooterSocials />
+        <div className="lg:flex lg:items-center lg:justify-between lg:space-x-8 xl:space-x-20 lg:mx-10 xl:mx-32">
+          <ContactUs />
+          <FooterLinks />
+          <FooterSocials />
+        </div>
       </footer>
     </div>
   );

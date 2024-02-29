@@ -1,16 +1,30 @@
 export default function FooterLinks() {
   return (
-    <section className="mx-7 mt-14">
+    <section className="mx-7 mt-14 lg:flex lg:space-x-16 lg:mx-0">
       <ul className="mb-12 flex flex-col gap-4">
-        <li className="text-textColor font-secondary">About us</li>
-        <li className="text-textColor font-secondary">Jobs</li>
-        <li className="text-textColor font-secondary">Press</li>
-        <li className="text-textColor font-secondary">Blog</li>
+        <li className="text-textColor font-secondary">
+          <a href="#">About us</a>
+        </li>
+        <li className="text-textColor font-secondary">
+          <a href="#">Jobs</a>
+        </li>
+        <li className="text-textColor font-secondary">
+          <a href="#">Press</a>
+        </li>
+        <li className="text-textColor font-secondary">
+          <a href="#">Blog</a>
+        </li>
       </ul>
       <ul className="flex flex-col gap-4">
-        <li className="text-textColor font-secondary">Contact us</li>
-        <li className="text-textColor font-secondary">Terms</li>
-        <li className="text-textColor font-secondary">Privacy</li>
+        <li className="text-textColor font-secondary">
+          <a href="#">Contact us</a>
+        </li>
+        <li className="text-textColor font-secondary">
+          <a href="#">Terms</a>
+        </li>
+        <li className="text-textColor font-secondary">
+          <a href="#">Privacy</a>
+        </li>
       </ul>
     </section>
   );
